@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Benne', serif;
+}
+.container{
+    width: 1152px;
+    max-width: 90%;
+    margin: 0 auto;
+    
+}
+nav{
+    background: linear-gradient( 120deg, rgb(179, 110, 179), rgb(85, 177, 85));
+    padding: 10px;
+}
+section.input{
+    padding-top: 100px;
+}
+
+h3{
+    text-align: center;
+    font-size: 36px;
+}
+.form_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.input_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    
+}
+input{
+    border: none;
+    font-size: 20px;
+    outline: none;
+    min-width: 400px;
+}
+button{
+    background: #553C9A;
+    color: white;
+    /* height: 100%; */
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+section.data{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.loading{
+    display: none;
+}
+
+section.data, p.def {
+    font-size: 20px;
+    color: rgb(69, 87, 70);
+
+}                                   
+.suggested{
+    background: #b794f4;
+    color: #2D3748;
+    line-height: 1.6;
+    padding: 2px 2px;
+    border-radius: 4px;
+    margin-right: 3px;
+    margin-top: 5px;
+    display: inline-block;
+
+}
+.audio{
+    margin-top: 20px;
+}
+
